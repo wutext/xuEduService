@@ -1,0 +1,11 @@
+
+dependencies {
+    compile libs.servletaip,
+            libs.logging,
+            libs.httpclient,
+            libs.zip4j,
+            libs.crypto,
+            libs.jwt,
+            libs.fastjson,
+            libs.commons
+}

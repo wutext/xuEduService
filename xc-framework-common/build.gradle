@@ -1,0 +1,7 @@
+dependencies {
+    compile libs.common,
+            libs.swagger,
+            libs.guava,
+            libs.openfeign
+
+}

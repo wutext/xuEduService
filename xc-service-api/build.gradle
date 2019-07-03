@@ -1,0 +1,7 @@
+dependencies {
+    compile libs.swagger,
+            libs.commonsfileupload,
+            libs.fastjson
+    compile project(":xc-framework-common")
+    compile project(":xc-framework-model")
+}

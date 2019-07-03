@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common.iml" group="xc-framework-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_main.iml" group="xc-framework-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_test.iml" group="xc-framework-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model.iml" group="xc-framework-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model_main.iml" group="xc-framework-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-model/xc-framework-model_test.iml" group="xc-framework-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils.iml" group="xc-framework-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_main.iml" group="xc-framework-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_test.iml" group="xc-framework-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api.iml" group="xc-service-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_main.iml" group="xc-service-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_test.iml" group="xc-service-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms.iml" group="xc-service-manage-cms" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_main.iml" group="xc-service-manage-cms" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_test.iml" group="xc-service-manage-cms" />
+      <module fileurl="file://$PROJECT_DIR$/xuEduService.iml" filepath="$PROJECT_DIR$/xuEduService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xuEduService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xuEduService_main.iml" group="xuEduService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xuEduService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xuEduService_test.iml" group="xuEduService" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+
+rootProject.name = 'xuEduService'
+include 'xc-service-api'
+include 'xc-framework-common'
+include 'xc-framework-model'
+include 'xc-framework-utils'
+include 'xc-service-manage-cms'
+

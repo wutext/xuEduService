@@ -1,0 +1,13 @@
+dependencies {
+    compile libs.zip4j,
+            libs.swagger,
+            libs.mongodb,
+            libs.freemarker,
+            libs.okhttp,
+            libs.amqp
+
+    compile project(":xc-framework-common")
+    compile project(":xc-framework-model")
+    compile project(":xc-framework-utils")
+    compile project(":xc-service-api")
+}

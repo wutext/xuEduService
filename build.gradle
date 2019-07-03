@@ -1,0 +1,71 @@
+
+group = 'com.xuecheng'
+version = '1.0-SNAPSHOT'
+apply plugin: 'idea'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+buildscript {
+
+	apply from: "$rootDir/dependencies.gradle"
+	ext {
+		springBootVersion = '2.1.5.RELEASE'
+		springCloudVersion = 'Greenwich.SR1'
+	}
+
+	repositories {
+		mavenLocal()
+		maven {
+			url = 'http://maven.aliyun.com/nexus/content/groups/public/'
+		}
+		mavenCentral()
+	}
+
+	dependencies {//用来打包
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+
+allprojects {
+
+	repositories {
+		mavenLocal()
+		maven {
+			url = 'http://maven.aliyun.com/nexus/content/groups/public/'
+		}
+		mavenCentral()
+	}
+	//指定编码格式
+	tasks.withType(JavaCompile) {
+		options.encoding = "UTF-8"
+	}
+}
+
+//设定当前模块项目中的配置
+subprojects {
+
+	apply plugin: 'java'
+	apply plugin: 'idea'
+	apply plugin: 'org.springframework.boot'
+	apply plugin: 'io.spring.dependency-management'
+	dependencies {
+		compile libs.common
+		testCompile libs.test
+	}
+
+	bootJar { enabled = false }
+	jar { enabled = true }
+
+	dependencyManagement {
+		imports {
+			mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+		}
+	}
+	[compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+}
+
+
+

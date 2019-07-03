@@ -1,0 +1,10 @@
+dependencies {
+    compile libs.zip4j,
+            libs.mongodb,
+            libs.datacommons,
+            libs.hibernatecore
+
+    compile project(":xc-framework-common")
+    compile project(":xc-framework-utils")
+
+}
