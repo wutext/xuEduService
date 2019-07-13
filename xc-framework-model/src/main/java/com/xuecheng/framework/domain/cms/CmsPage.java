@@ -1,5 +1,6 @@
 package com.xuecheng.framework.domain.cms;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
