@@ -7,3 +7,32 @@ spring:
     mongodb:
       uri:  mongodb://localhost:27017
       database: xc_cms
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
+
+  rabbitmq:
+    addresses: 192.168.3.5:5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 15000
+    publisher-confirms: true
+    publisher-returns: true
+    template:
+      mandatory: true
+    exchange:
+      name: exchange_cms_001
+    key: 5a751fab6abb5044e0d19ea1
+
+eureka:
+  client:
+    register-with-eureka: true #服务注册，是否将自己注册到eureka服务中
+    fetch-registry: true #服务发现，是否从eureka中获取注册信息
+    service-url:
+      defaultZone: http://localhost:8601/eureka/
+  instance:
+    prefer-ip-address: true #将自己的ip地址注册到eureka中
+    ip-address: localhost
+    instance-id: localhost:31001

@@ -57,4 +57,16 @@ public class CmsPageController implements CmsPageControllerApi {
     public ResponseResult delById(@PathVariable("id") String id) {
         return pageService.delById(id);
     }
+
+    @GetMapping("/preview/{pageId}")
+    public String getPageHtml(@PathVariable("pageId") String pageId) {
+
+        return pageService.getPageHtml(pageId);
+    }
+
+    @PostMapping("/sendPage/{pageId}")
+    public String sendPage(@PathVariable("pageId") String pageId) {
+
+        return pageService.sendPage(pageId);
+    }
 }

@@ -4,8 +4,8 @@ dependencies {
             libs.mongodb,
             libs.freemarker,
             libs.okhttp,
-            libs.amqp
-
+            libs.amqp,
+            libs.eureka_client
     compile project(":xc-framework-common")
     compile project(":xc-framework-model")
     compile project(":xc-framework-utils")

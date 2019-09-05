@@ -5,18 +5,28 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-freemarker_main" target="1.8" />
+      <module name="demo-freemarker_test" target="1.8" />
+      <module name="test-fastdfs_main" target="1.8" />
+      <module name="test-fastdfs_test" target="1.8" />
       <module name="xc-framework-common_main" target="1.8" />
       <module name="xc-framework-common_test" target="1.8" />
       <module name="xc-framework-model_main" target="1.8" />
       <module name="xc-framework-model_test" target="1.8" />
-      <module name="xc-framework-parent_main" target="1.8" />
-      <module name="xc-framework-parent_test" target="1.8" />
       <module name="xc-framework-utils_main" target="1.8" />
       <module name="xc-framework-utils_test" target="1.8" />
+      <module name="xc-govern-center_main" target="1.8" />
+      <module name="xc-govern-center_test" target="1.8" />
       <module name="xc-service-api_main" target="1.8" />
       <module name="xc-service-api_test" target="1.8" />
       <module name="xc-service-manage-cms_main" target="1.8" />
       <module name="xc-service-manage-cms_test" target="1.8" />
+      <module name="xc-service-manage-course_main" target="1.8" />
+      <module name="xc-service-manage-course_test" target="1.8" />
+      <module name="xc-service-manager-cms-client_main" target="1.8" />
+      <module name="xc-service-manager-cms-client_test" target="1.8" />
+      <module name="xc-service-search-gradle_main" target="1.8" />
+      <module name="xc-service-search-gradle_test" target="1.8" />
       <module name="xuEduService_main" target="1.8" />
       <module name="xuEduService_test" target="1.8" />
     </bytecodeTargetLevel>

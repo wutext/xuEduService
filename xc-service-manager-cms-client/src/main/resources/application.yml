@@ -1,0 +1,34 @@
+server:
+  port: 31003
+spring:
+  application:
+    name: xc-service-manage-cms
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017
+      database: xc_cms
+  rabbitmq:
+    host: 192.168.3.5
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 15000
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 1
+        max-concurrency: 5
+      order:
+        queue:
+          name: queue_cms_001
+          declare: true
+        exchange:
+          name: exchange_cms_001
+          declare: true
+          durable: true
+          type: topic
+          ignoreDeclarationExceptions: true
+        key: 5a751fab6abb5044e0d19ea1
+
+

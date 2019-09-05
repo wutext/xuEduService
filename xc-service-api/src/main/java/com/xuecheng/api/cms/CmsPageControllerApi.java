@@ -9,10 +9,8 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Api(value="cms页面管理接口",description = "cms页面管理接口，提供页面的增、删、改、查")
 public interface CmsPageControllerApi {
@@ -42,5 +40,11 @@ public interface CmsPageControllerApi {
 
     @ApiOperation("删除")
     public ResponseResult delById(String id);
+
+    @ApiOperation("获取页面展示")
+    public String getPageHtml(String pageId);
+
+    @ApiOperation("发布页面")
+    public String sendPage(String pageId);
 
 }

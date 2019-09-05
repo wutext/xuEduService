@@ -1,0 +1,17 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: xc-govern-center
+eureka:
+  client:
+    register-with-eureka: true #服务注册，是否将自己注册到eureka服务中
+    fetch-registry: true #服务发现，是否从eureka中获取注册信息
+    service-url:
+      defaultZone: http://localhost:8601/eureka/
+    server:
+      enable-self-perservation: false #是否开启自我保护模式
+      evication-interval-timer-in-ms: 6000 #服务注册清理间隔时间(单位毫秒：默认60*1000)
+
+
+

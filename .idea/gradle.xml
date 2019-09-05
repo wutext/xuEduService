@@ -10,11 +10,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/demo-freemarker" />
+            <option value="$PROJECT_DIR$/test-fastdfs" />
             <option value="$PROJECT_DIR$/xc-framework-common" />
             <option value="$PROJECT_DIR$/xc-framework-model" />
             <option value="$PROJECT_DIR$/xc-framework-utils" />
+            <option value="$PROJECT_DIR$/xc-govern-center" />
             <option value="$PROJECT_DIR$/xc-service-api" />
             <option value="$PROJECT_DIR$/xc-service-manage-cms" />
+            <option value="$PROJECT_DIR$/xc-service-manage-course" />
+            <option value="$PROJECT_DIR$/xc-service-manager-cms-client" />
+            <option value="$PROJECT_DIR$/xc-service-search-gradle" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,9 @@
+server:
+  port: 31002
+spring:
+  application:
+    name: demo-freemarker
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0

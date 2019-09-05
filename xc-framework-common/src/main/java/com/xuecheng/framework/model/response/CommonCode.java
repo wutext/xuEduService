@@ -12,6 +12,7 @@ import lombok.ToString;
 @ToString
 public enum CommonCode implements ResultCode{
 
+    PAGE_URL_ISNULL(false,10010,"路径为空"),
     NLL_POINT_EXCEPTION(false,10004,"属性不可为空"),
     OBJECT_NULL__PAAMS(false,10004,"对象为空"),
     INVALID_PAAMS(false,10003,"非法参数"),

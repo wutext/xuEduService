@@ -5,8 +5,10 @@ ext {
     libs = [
             common : [
                     "org.springframework.boot:spring-boot-starter-web:${versions.springBootVersion}",
-//                    "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBootVersion}",
                     "org.projectlombok:lombok:1.18.4"
+            ],
+            jpa: [
+                    "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBootVersion}"
             ],
             commons :[
                     "org.apache.commons:commons-lang3:3.5",
@@ -80,7 +82,34 @@ ext {
             ],
             hibernatecore :[
                     "org.hibernate:hibernate-core:5.4.3.Final"
+            ],
+            guava: [
+                    "com.google.guava:guava:23.0",
+            ],
+            fastdfs: [
+                    "net.oschina.zcx7878:fastdfs-client-java:1.27.0.0"
+            ],
+            druid: [
+                    "com.alibaba:druid-spring-boot-starter:1.1.18"
+            ],
+            mybatis: [
+                    "org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0"
+            ],
+            orm: [
+                    "org.springframework:spring-orm:5.1.8.RELEASE"
+            ],
+            pageHelper: [
+                    "com.github.pagehelper:pagehelper-spring-boot-starter:1.2.12"
+            ],
+            eureka_server: [
+                    "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+            ],
+            eureka_client: [
+                    "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
+            ],
+            es: [
+                    "org.elasticsearch.client:elasticsearch-rest-high-level-client:6.2.1",
+                    "org.elasticsearch:elasticsearch:6.2.1"
             ]
-
     ]
 }

@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-freemarker.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-freemarker.iml" group="demo-freemarker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-freemarker/demo-freemarker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-freemarker/demo-freemarker_main.iml" group="demo-freemarker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo-freemarker/demo-freemarker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo-freemarker/demo-freemarker_test.iml" group="demo-freemarker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-fastdfs.iml" filepath="$PROJECT_DIR$/.idea/modules/test-fastdfs.iml" group="test-fastdfs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-fastdfs/test-fastdfs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test-fastdfs/test-fastdfs_main.iml" group="test-fastdfs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-fastdfs/test-fastdfs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test-fastdfs/test-fastdfs_test.iml" group="test-fastdfs" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common.iml" group="xc-framework-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_main.iml" group="xc-framework-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-common/xc-framework-common_test.iml" group="xc-framework-common" />
@@ -11,12 +17,24 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils.iml" group="xc-framework-utils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_main.iml" group="xc-framework-utils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-framework-utils/xc-framework-utils_test.iml" group="xc-framework-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-govern-center.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-govern-center.iml" group="xc-govern-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-govern-center/xc-govern-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-govern-center/xc-govern-center_main.iml" group="xc-govern-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-govern-center/xc-govern-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-govern-center/xc-govern-center_test.iml" group="xc-govern-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api.iml" group="xc-service-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_main.iml" group="xc-service-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-api/xc-service-api_test.iml" group="xc-service-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms.iml" group="xc-service-manage-cms" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_main.iml" group="xc-service-manage-cms" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-cms/xc-service-manage-cms_test.iml" group="xc-service-manage-cms" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-course.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-course.iml" group="xc-service-manage-course" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-course/xc-service-manage-course_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-course/xc-service-manage-course_main.iml" group="xc-service-manage-course" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manage-course/xc-service-manage-course_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manage-course/xc-service-manage-course_test.iml" group="xc-service-manage-course" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client.iml" group="xc-service-manager-cms-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client/xc-service-manager-cms-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client/xc-service-manager-cms-client_main.iml" group="xc-service-manager-cms-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client/xc-service-manager-cms-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-manager-cms-client/xc-service-manager-cms-client_test.iml" group="xc-service-manager-cms-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-search-gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-search-gradle.iml" group="xc-service-search-gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-search-gradle/xc-service-search-gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-search-gradle/xc-service-search-gradle_main.iml" group="xc-service-search-gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xc-service-search-gradle/xc-service-search-gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xc-service-search-gradle/xc-service-search-gradle_test.iml" group="xc-service-search-gradle" />
       <module fileurl="file://$PROJECT_DIR$/xuEduService.iml" filepath="$PROJECT_DIR$/xuEduService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xuEduService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/xuEduService_main.iml" group="xuEduService" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xuEduService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/xuEduService_test.iml" group="xuEduService" />

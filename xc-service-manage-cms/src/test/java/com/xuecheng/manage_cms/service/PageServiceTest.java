@@ -24,4 +24,10 @@ public class PageServiceTest {
         System.out.println(cmsPages!=null);
     }
 
+    @Test
+    public void get_static_html() {
+        String content = pageService.getPageHtml("5d297dbc6e6c66535c5927ae");
+        System.out.println(content);
+    }
+
 }
